@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript - Niomic</title>
+</head>
+<body>
+    <input type="text" class="tugas" value="Nama Depan">
+    <input type="text" class="tugas" value="Nama Belakang">
+    <input type="text" class="tugas" value="Hobi">
+
+    <button type="submit" onclick="byclass()">Jalan</button>
+
+    <script>
+        function byclass(){
+            console.log(document.getElementsByClassName('tugas'));
+        }
+    </script>
+</body>
+</html>
